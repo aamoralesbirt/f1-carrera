@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gran Premio F1 - Contacto</title>
+  <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+
+  <!-- Cabecera de la página -->
+  <header>
+    <h1>Formulario de Contacto</h1>
+  </header>
+
+  <!-- Menú de navegación principal -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="circuito.html">Circuito</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal con el formulario -->
+  <main>
+    <section>
+      <h2>Contacta con la Organización</h2>
+      <p>Rellena el siguiente formulario si tienes cualquier consulta sobre las entradas o el evento:</p>
+
+      <!-- Formulario estructurado con el método mailto exigido -->
+      <form action="mailto:tu-correo@ejemplo.com" method="post">
+        <p>
+          <label for="nombre">Nombre completo:</label><br>
+          <input type="text" id="nombre" name="nombre" required>
+        </p>
+
+        <p>
+          <label for="correo">Correo electrónico:</label><br>
+          <input type="email" id="correo" name="correo" required>
+        </p>
+
+        <p>
+          <label for="mensaje">Mensaje:</label><br>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Enviar Formulario</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>Sitio web creado para la tarea de BirtLH</p>
+  </footer>
+
+</body>
+</html>
