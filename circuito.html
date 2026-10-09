@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Gran Premio F1 - Circuito</title>
   <link rel="stylesheet" href="estilos/estilos.css">
+  <!-- Enlace al archivo de JavaScript externo -->
+  <script src="funciones/funciones.js" defer></script>
 </head>
 <body>
 
@@ -26,6 +28,12 @@
     <section>
       <h2>Horarios del Fin de Semana</h2>
       <p>A continuación se detallan los horarios de cada sesión del Gran Premio:</p>
+
+      <!-- Elementos para la Función 2 (Resaltar la sesión de hoy) -->
+      <p>
+        <button id="btn-verificar-hoy" type="button" style="padding: 8px 12px; cursor: pointer;">Comprobar sesiones de hoy</button>
+      </p>
+      <p id="mensaje-sesion" style="font-weight: bold;"></p>
 
       <!-- Tabla para estructurar y organizar la información -->
       <table>
